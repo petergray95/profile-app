@@ -1,0 +1,19 @@
+﻿<Project>
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.0.50" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard21</TargetFramework>
+    <Company>Peter Gray</Company>
+    <Copyright>Copyright © Peter Gray</Copyright>
+    <Authors>Peter Gray</Authors>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <RepositoryUrl>https://github.com/petergray95/ProfileApp</RepositoryUrl>
+    <PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GeneratePackageOnBuild Condition="$(Configuration) == 'Release'">false</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
