@@ -15,4 +15,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Blazor.DevServer" Version="3.1.0-preview4.19579.2" PrivateAssets="all" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\content\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\content\Peter_Gray_-_Software_Engineer.pdf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
