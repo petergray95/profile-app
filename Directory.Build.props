@@ -9,7 +9,7 @@
     <Copyright>Copyright © Peter Gray</Copyright>
     <Authors>Peter Gray</Authors>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <RepositoryUrl>https://github.com/petergray95/ProfileApp</RepositoryUrl>
     <PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
